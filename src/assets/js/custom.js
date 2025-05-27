@@ -12,12 +12,7 @@
     }
 
     if (closeMobileMenuBtn) {
-        closeMobileMenuBtn.addEventListener('click', toggleMobileMenu); // Use the same toggle function
+        closeMobileMenuBtn.addEventListener('click', toggleMobileMenu); 
     }
 
-    // Optional: Close menu when a link inside is clicked (for single-page applications)
-    // const mobileMenuLinks = mobileMenu.querySelectorAll('a');
-    // mobileMenuLinks.forEach(link => {
-    //     link.addEventListener('click', closeMenu);
-    // });
 
